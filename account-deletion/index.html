@@ -23,7 +23,7 @@
   <main id="main">
     <div class="notice">
       <strong>公開準備中 / Draft</strong><br>
-      現在はv1.0公開前です。本番の自動削除処理はまだ接続していません。公開前に実装と案内を一致させます。
+      現在はv1.0公開前です。アプリ内の本番削除処理はProduction環境で接続・検証済みです。ストア提出前に本ページと最終公開構成を再確認します。
     </div>
 
     <section class="section">
@@ -36,14 +36,14 @@
 
     <section class="section">
       <h2>削除対象</h2>
-      <p>公開版では、MY CARの車両・記録・写真・資料など、アカウントに紐づくサービス上のデータを削除対象とする方針です。</p>
+      <p>MY CARの車両・記録・写真・資料、Recovery Backupなど、アカウントに紐づくサービス上の個人データを削除対象とします。</p>
       <p>通常の30日ごみ箱や、愛車1台の削除とは別の処理です。</p>
     </section>
 
     <section class="section">
       <h2>現在の実装状態</h2>
-      <p>アプリ内には本人確認と最終確認のUIがありますが、2026年9月12日時点では本番のAuth / Database / Storage削除処理は未接続です。</p>
-      <p>本番削除処理を接続・検証した後、このページを正式な削除手順へ更新します。</p>
+      <p>アプリ内では、パスワードによる再本人確認、登録メールアドレスの再入力、最終確認の後に削除要求を送信します。</p>
+      <p>2026年9月13日時点で、Production環境の使い捨てアカウントを用いてDatabase / Private Storage / Recovery Backup / Auth userの削除と再ログイン不可を確認済みです。</p>
     </section>
 
     <section class="section">
@@ -60,7 +60,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>最終更新: 2026年9月12日（公開準備版）</p>
+    <p>最終更新: 2026年9月13日（公開準備版）</p>
     <p>© 車の解体新書 運営</p>
   </footer>
 </body>
