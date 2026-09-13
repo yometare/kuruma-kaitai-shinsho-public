@@ -25,7 +25,7 @@
   <main id="main">
     <div class="notice">
       <strong>公開準備中 / Draft</strong><br>
-      本ページは2026年9月12日時点の開発実装に合わせた準備版です。公開前にProduction構成、法的表示、アカウント削除、ストア申告を最終確認します。
+      本ページは2026年9月13日時点の開発実装に合わせた準備版です。公開前にメール配信、Store申告、Development Build等の最終構成を確認します。
     </div>
 
     <section class="section">
@@ -58,8 +58,8 @@
 
     <section class="section">
       <h2>外部サービス</h2>
-      <p>開発版ではクラウド機能にSupabaseを利用しています。Production環境の最終構成は公開前に確定します。</p>
-      <p>2026年9月12日時点では、広告SDK・分析SDK・Crash reporting SDKに該当する依存は確認されていません。将来導入する場合は、本ポリシーとストア申告を更新します。</p>
+      <p>クラウド機能にはSupabaseを利用します。開発環境とは分離したProduction環境を用意し、公開前の確認を進めています。</p>
+      <p>v1.0は広告なしで公開する方針です。2026年9月13日時点では、広告SDK・分析SDK・Crash reporting SDKに該当する依存は確認されていません。将来導入する場合は、本ポリシーとストア申告を更新します。</p>
     </section>
 
     <section class="section">
@@ -70,7 +70,7 @@
     <section class="section">
       <h2>保存・削除</h2>
       <p>一部の通常削除データは、誤操作からの復元のため30日ごみ箱で扱う設計があります。Recovery Backupは同期とは別の復旧用データです。</p>
-      <p>アカウント削除の本番処理は公開前に接続・検証します。Webからの削除依頼方法は <a href="../account-deletion/">Account deletionページ</a> をご確認ください。</p>
+      <p>アカウント削除は通常の30日ごみ箱とは別に処理し、Production環境でDatabase / Private Storage / Recovery Backup / Auth userの削除を検証済みです。アプリを利用できない場合のWeb削除依頼方法は <a href="../account-deletion/">Account deletionページ</a> をご確認ください。</p>
     </section>
 
     <section class="section">
@@ -96,7 +96,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>最終更新: 2026年9月12日（公開準備版）</p>
+    <p>最終更新: 2026年9月13日（公開準備版）</p>
     <p>© 車の解体新書 運営</p>
   </footer>
 </body>
